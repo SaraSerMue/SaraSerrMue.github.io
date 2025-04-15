@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sara Muserkup - Bienestar Personal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="estilo/styles.css">
+</head>
+<body>
+  <header class="encabezado-hero">
+    <h1>SARA MUSERKUP</h1>
+    <h2>BIENESTAR PERSONAL</h2>
+  </header>
+
+  <nav>
+    <button class="btn-pestana activo" data-tab="eventos">EVENTOS</button>
+    <button class="btn-pestana" data-tab="pasalo">PÁSALO BIEN</button>
+    <button class="btn-pestana" data-tab="sesion">SESIÓN DE FOTOS</button>
+    <button class="btn-pestana" data-tab="boletin">BOLETÍN</button>
+    <button class="btn-pestana" data-tab="contacto">CONTACTO</button>
+  </nav>
+
+  <main>
+    
+<section id="eventos" class="contenido-seccion activo">
+  <h3>EVENTOS</h3>
+  <div class="imagenes-eventos">
+    <img src="C:\Users\Aleum\Desktop\miproyecto\imagenes\evento2.jpg" alt="Invitada" height="max">
+    <img src="C:\Users\Aleum\Desktop\miproyecto\imagenes\evento1.jpg" alt="Boda" height="max">
+  </div>
+  <div class="footer-text">Haz que tu momento sea especial</div>
+</section>
+
+
+<section id="pasalo" class="contenido-seccion">
+  <h3>¡DIVIÉRTETE!</h3>
+  <div class="imagenes-pasalo">
+    <img src="C:\Users\Aleum\Desktop\miproyecto\imagenes\pasalobien1.jpg" alt="Vikingo" height="max">
+    <img src="C:\Users\Aleum\Desktop\miproyecto\imagenes\pasalobien2.jpg" alt="Navidad" height="max">
+    </div>
+  <div class="footer-text">Sé el alma de la fiesta con un maquillaje personalizado</div>
+</section>
+
+
+<section id="sesion" class="contenido-seccion">
+  <h3>SHOOTING</h3>
+  <div class="imagenes-sesion">
+    <img src="C:\Users\Aleum\Desktop\miproyecto\imagenes\shooting.jpg" alt="Shooting 1" height="max">
+    <img src="C:\Users\Aleum\Desktop\miproyecto\imagenes\shooting2.jpg" alt="Shooting 2" height="max">
+  </div>
+  <div class="footer-text">
+    Shooting<br />
+    fifty/fifty<br />
+    Juntemos tu arte y el mío para hacer magia
+  </div>
+</section>
+
+<section id="boletin" class="contenido-seccion">
+      <h3>BOLETÍN</h3>
+      <div class="seccion-boletin">
+        <p>Suscríbete a nuestro boletín para enterarte de las últimas novedades, ofertas y eventos especiales. ¡No te lo pierdas!</p>
+        <form id="formularioBoletin">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          <p><label for="correo">Correo electrónico <span style="color: red;">*</span></label></p>
+          <input type="email" id="correo" name="correo" placeholder="tuemail@ejemplo.com" required />
+          <input type="submit" value="Suscribirse" />
+        </form>
+        <div id="gracias" style="display:none; margin-top:10px; font-weight:bold;">¡Gracias por suscribirte!</div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contenido-seccion">
+      <h3>CONTACTO</h3>
+      <div class="seccion-contacto">
+        <p>Puedes ponerte en contacto conmigo a través de los siguientes medios:</p>
+        <ul>
+          <li><strong>Correo electrónico:</strong> <a href="mailto:sara@example.com">sara@example.com</a></li>
+          <li><strong>Instagram:</strong> <a href="https://instagram.com/saramakeup" target="_blank">📷 @saramakeup</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
